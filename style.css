@@ -1,0 +1,74 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+header {
+    background-color: #5b9cd6;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-1 {
+    font-weight: bold;
+    font-size: 4.5rem;
+    flex-basis: 50%;
+}
+
+.header-2>.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+}
+
+section {
+    padding: 0.5rem 3rem;
+}
+
+section#Summary {
+    margin-top: 2rem;
+}
+
+section>.title {
+    font-weight: bold;
+    font-size: 2rem;
+    display: block;
+    border-bottom-style: solid;
+    border-bottom-color: #505050;
+}
+
+section#SkillHighlights>ul {
+    height: 5rem;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+
+section>.container {
+    padding: 1rem 0rem;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.job-company {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #5b9cd6;
+    height: 1.5rem;
+}

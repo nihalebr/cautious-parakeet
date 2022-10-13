@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar {
+    width: 28%;
+    height: 100%;
+    float: left;
+    background-color: #d0cecf;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+div.name {
+    margin-top: 5rem;
+    padding: 0;
+
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    padding: 0.25rem 2rem;
+}
+
+.color {
+    color: #ff9645;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+    border-bottom-style: solid;
+    border-bottom-color: #505050;
+}
+
+.section {
+    padding: 0.5rem 1.5rem;
+}
+
+#info>.title {
+    font-weight: bold;
+    font-size: 1rem;
+    display: block;
+    border-bottom-style: none;
+    margin-top: 10px;
+}
+
+.img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.main {
+    margin-left: 28%;
+    top: 2rem;
+    padding: 1rem;
+    padding-bottom: 0rem;
+}
+
+section {
+    padding: 0rem 3rem;
+}
+
+section:nth-last-child(1) {
+    padding-bottom: 0;
+}
+
+section#SkillHighlights>ul {
+    height: 5rem;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+
+section>.container {
+    padding: 1.5rem 0rem;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.job-company {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: 400;
+    font-size: 1rem;
+}
